@@ -19,9 +19,26 @@
         <label id="number-label">Age</label>
         <input id=number type="number" min="13" max="118" placeholder="Enter your age here">
         <label>What is your favorite feature of freeCodeCamp?</label>
-        <input type=""
-        <label>Would you recommend freeCodeCamp to a friend?</label>
-        <input id=""
+        <!-- Here I'll make a dropdown menu-->
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label for="definitely">
+            <input id="definitely" type="radio" name="recommendations" value="definitely">Definitely 
+        </label>
+        <label for="maybe">
+            <input id="maybe" type="radio" name="recommendations" value="maybe">Maybe 
+        </label>
+        <label for="notsure">
+            <input id="notsure" type="radio" name="recommendations" value="notsure">Not sure 
+        </label>
+        <label>What would you like to see more off? (check all that apply)</label>
+        <label for="challenges">
+            <input id="challenges" type="checkbox" name="improvements" value="challenges">Challenges
+        </label><label for="projects">
+            <input id="rojects" type="checkbox" name="improvements" value="projects">Projects
+        </label>
+        <label for="videoe">
+            <input id="videos" type="checkbox" name="improvements" value="videos">Videos
+        </label>
     </form>
 </body>
 </html>
