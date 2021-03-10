@@ -1,17 +1,19 @@
 body {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: purple;
+    color: darkblue;
 }
 
 #title {
     font-size: 72px;
+    line-height: 0;
 }
 
 #survey-form {
-    a
+    margin: auto;
     width: fit-content;
     border: 2px solid black;
     padding: 10px;
-    margin-left: 25%;
-    margin-right: 25%;
-}
+    background-color: violet;
+    }
