@@ -3,11 +3,18 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: purple;
     color: darkblue;
+    font-weight: bold;
 }
 
 #title {
     font-size: 72px;
     line-height: 0;
+    font-weight: bold;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 #survey-form {
@@ -17,3 +24,8 @@ body {
     padding: 10px;
     background-color: violet;
     }
+
+label {
+    font-size: 24px;
+    line-height: 1.5;
+}
