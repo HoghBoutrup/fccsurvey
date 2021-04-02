@@ -1,7 +1,7 @@
 body {
-    text-align: center;
+    text-align: centerb;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: purple;
+    background-color: white;
     color: darkblue;
     font-weight: bold;
 }
@@ -22,7 +22,8 @@ p {
     width: fit-content;
     border: 2px solid black;
     padding: 10px;
-    background-color: violet;
+    background-color: lightblue;
+    box-sizing: border-box;
     }
 
 label {
